@@ -1,0 +1,13 @@
+{
+    "name": "zero-systems/zero-container",
+    "description": "zero container",
+    "require": {
+        "php": ">=7.1.0",
+        "prs/container": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zero\\": "src"
+        }
+    }
+}
