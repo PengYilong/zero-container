@@ -2,7 +2,7 @@
     "name": "zero-systems/zero-container",
     "description": "zero container",
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.0",
         "psr/container": "~1.0"
     },
     "autoload": {
