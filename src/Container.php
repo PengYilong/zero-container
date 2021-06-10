@@ -139,6 +139,11 @@ class Container implements ArrayAccess, Countable{
         return Container::getInstance()->invokeClass($class, $args);
     }
 
+    public static function invokeFunction($function, array $args = [])
+    {
+        return call_user_func_array($function, $args);
+    }
+
     /**
      * get current instance
      */
